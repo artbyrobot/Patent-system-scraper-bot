@@ -1,0 +1,64 @@
+#define _WIN32_WINNT 0x0501            //tells the compiler that this is windowsXP or higher... by telling the compiler this, we gain access to the GetConsoleWindow(); command and the PrintWindow(); command  
+                                         //also note that this command MUST be written in BEFORE #include <windows.h>...
+                                                                             
+#include <windows.h>
+#include <winsock2.h>  //implements the tcp/ip library for access to commands involving socket based packet sending in realtime using tcp protocol for my realtime communications needs for fightingPits and for realtime remote desktopping...
+#include <fstream>     //must include this header in order to access files
+#include <iostream>
+ 
+using namespace std;
+ 
+/*
+nextSection                 our to do list section
+ 
+    ------to do------
+   
+   
+   
+   
+   
+   
+   
+*/
+ 
+ 
+ 
+ 
+ 
+bool runProgram = true;
+bool closeDownTheProgram = false;
+ 
+//nextSection                 variables declarations section
+ 
+ 
+ 
+bool debuggingPrintingHelloWorld = true;
+ 
+int main()
+{
+    //nextSection
+   
+    while (runProgram == true)
+    {
+       
+       
+        if (closeDownTheProgram == true)
+        {
+            closeDownTheProgram = false;
+           
+           
+            if (debuggingPrintingHelloWorld == true)
+            {
+                 cout << "Closing down the hello world program\n";
+            }
+           
+           
+            runProgram = false;
+           
+           
+        }
+       
+    }
+   
+    return 0;
+}
