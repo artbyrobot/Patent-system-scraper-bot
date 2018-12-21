@@ -57,7 +57,7 @@ past stuff that is not relevant or of interest.
 It will go through one patent at a time scraping these data points but it will need to go 
 slowly may be one patent every 10 minutes and it will need to only pull 25 or so patents 
 per day so that the server does not hit it with a captcha or an IP ban for two frequent 
-requests
+requests; also, have a 40 minute delay between requests to help to avoid ip bans as well;
 
 
 
