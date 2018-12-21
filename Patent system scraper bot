@@ -33,7 +33,8 @@ https://docs.microsoft.com/en-us/windows/desktop/secauthn/using-sspi-with-a-wind
 Once on the patent page, our bot receives the full page source and it needs to parse out 
 of that source the first page of text describing the pattern itself - maybe the first 2000 
 characters will do; It then needs to create a 800x600 JPEG image containing the text that it 
-pulled from the patent file
+pulled from the patent file; also, create a txt file containing the full patent description
+text and name it "[patent #] - full text.txt"
 
 The bot then needs to connect to a page with a URL that looks as follows: 
 https://patentimages.storage.googleapis.com/pages/US5316-0.png and it needs to download that 
